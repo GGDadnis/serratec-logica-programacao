@@ -1,0 +1,3 @@
+//Me senti tão mal fazendo esse exercicio, que depois farei um com prompt para cada nome
+
+console.log("Viviane\nVictor Hugo\nVanderson\nSamuel\nRodrigo\nRodrigo\nRaquel\nRafael\nPedro Henrique\nPedro Henrique\nNúri\nNathan\nMatheus\nMarcos Vinicius\nMarcos Antonio\nMarcella\nLuciana\nLuciana\nLuana\nLeandro\nKarina\nHigor Henrique\nGustavo\nGustavo\nGuilherme\nGilnei\nEduardo\nDiego\nDaniel Cesar\nCarolina\nCarlos\nBruno\nBeatriz\nAngelita\nAndre Luiz\nAndre\nAdrian")
