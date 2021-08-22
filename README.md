@@ -1,5 +1,7 @@
 # serratec-logica-programacao
 
+Index com informações de todos os algoritmos das listas
+
 Fase Zero: 
 algoritmo sanduiche.txt
 Bolo para o café.md
@@ -12,28 +14,8 @@ Chamada.js
 OlaMundo.js
 Saudações.js
 
-Fase Dois:
-Valores.js
-Variaveisconceito.txt
-Variaveisenunciado.js
-Variavel.js
-MiniCalculadorade2.js
-
 Fase Três:
+**Folder "exercicios" com todos os exercicios da Lista Fase 3**
 idadealterdata.js
 indeciso.js
-leitura.js
 universo.js
-
-Fase Quatro:
-banheiro2.js
-limiteloja.js
-motoristaprofissional.js
-
-Fase Cinco:
-contar10.js
-ingressos90show.js
-ligacao90show.js
-switchestados.js
-switchfrutas.js
-
