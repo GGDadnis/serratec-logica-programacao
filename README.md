@@ -5,32 +5,32 @@ algoritmo sanduiche.txt
 Bolo para o café.md
 bomdia.js
 
-Fase Um
+Fase Um:
 carta.js
 Chamada.js
 **Dissertativos.md**
 OlaMundo.js
 Saudações.js
 
-Fase Dois
+Fase Dois:
 Valores.js
 Variaveisconceito.txt
 Variaveisenunciado.js
 Variavel.js
 MiniCalculadorade2.js
 
-Fase Três
+Fase Três:
 idadealterdata.js
 indeciso.js
 leitura.js
 universo.js
 
-Fase Quatro
+Fase Quatro:
 banheiro2.js
 limiteloja.js
 motoristaprofissional.js
 
-Fase Cinco
+Fase Cinco:
 contar10.js
 ingressos90show.js
 ligacao90show.js
