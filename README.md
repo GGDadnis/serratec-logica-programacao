@@ -16,6 +16,9 @@ Saudações.js;
 
 Fase Três:
 **Folder "exercicios" com todos os exercicios da Lista Fase 3**;
+Dissertativos 2.md;
+Dissertativos 3.md;
+Dissertativos 4.md;
 idadealterdata.js;
 indeciso.js;
 universo.js;
