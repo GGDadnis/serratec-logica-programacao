@@ -1,6 +1,3 @@
-
-<![endif]-->
-
 ## #Fase 4
 
 ### Operadores lógicos | unário | binário
