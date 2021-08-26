@@ -1,7 +1,7 @@
 /*Serratec
 Lógica de programação - Professor Zepa
 Atividade: Elicitação de Requisitos
-Squad:
+Squad: DevAneios
 Autor: Guilherme Gusman (GG) https://github.com/GGDadnis
 Data: 20/08/2021
 
