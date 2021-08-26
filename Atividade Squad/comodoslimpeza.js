@@ -11,10 +11,21 @@ const prompt = require('prompt-sync')();
 
 console.log('Que tal limpar a casa hoje?')
 
-var sala = prompt('Você limpou a sala na última semana? (S/N) ');
-var cozinha = prompt('Você limpou a cozinha nos últimos três dias? (S/N) ');
-var banheiro = prompt('Você limpou o banheiro nos últimos três dias? (S/N) ');
-var quarto = prompt('Você limpou o quarto na última semana? (S/N) ');
+do {
+    var sala = prompt('Você limpou a sala na última semana? Digite S ou N ');
+} while ((sala != 'S') && (sala != 'N')) 
+
+do {
+  var cozinha= prompt('Você limpou a cozinha nos últimos três dias? Digite S ou N ');  
+} while ((cozinha != 'S') && (cozinha != 'N')) 
+
+do {
+    var banheiro = prompt('Você limpou o banheiro nos últimos três dias? Digite S ou N ');
+  } while ((banheiro != 'S') && (banheiro != 'N')) 
+
+do{
+var quarto = prompt('Você limpou o quarto na última semana? Digite S ou N ');
+} while ((quarto != 'S') && (quarto != 'N')) 
 
 if(sala == "N")
 console.log('É necessário limpar a sala');
