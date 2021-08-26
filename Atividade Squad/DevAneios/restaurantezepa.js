@@ -9,42 +9,47 @@ Data: 21/08/2021
  O cardápio conta com hambúrguer vegetariano, batata frita com queijo e refrigerante (respectivamente: R$35, R$15 e R$15). 
 */
 
-const prompt = require('prompt-sync')();
+var prompt = require("prompt-sync")();
 
-console.log('Que tal limpar a casa hoje?')
+var pedido1 = ""
+var pedido2 = ""
+var pedido3 = ""
 
-do {
-    var sala = prompt('Você limpou a sala na última semana? Digite S ou N ');
-} while ((sala != 'S') && (sala != 'N')) 
-
-do {
-  var cozinha= prompt('Você limpou a cozinha nos últimos três dias? Digite S ou N ');  
-} while ((cozinha != 'S') && (cozinha != 'N')) 
-
-do {
-    var banheiro = prompt('Você limpou o banheiro nos últimos três dias? Digite S ou N ');
-  } while ((banheiro != 'S') && (banheiro != 'N')) 
+console.log("Bem vindo ao restaurante Zepa. Não se esqueça da nossa promoção do combo sair por R$ 60,00");
 
 do{
-var quarto = prompt('Você limpou o quarto na última semana? Digite S ou N ');
-} while ((quarto != 'S') && (quarto != 'N')) 
+while (pedido1 != "S" && pedido1 != "N"){
+pedido1 = prompt("Deseja pedir o nosso hamburguer: (S/N) ");
+}
 
-if(sala == "N")
-console.log('É necessário limpar a sala');
-else
-console.log('Não é necessário limpar a sala'); 
+while (pedido2 != "S" && pedido2 != "N"){
+pedido2 = prompt("Deseja pedir nossa batata: (S/N) ");
+}
 
-if(cozinha == "N")
-console.log('É necessário limpar a cozinha');
-else
-console.log('Não é necessário limpar a cozinha'); 
+while (pedido3 != "S" && pedido3 != "N"){
+pedido3 = prompt("Deseja pedir nosso refrigerante: (S/N) ");
+}
 
-if(banheiro == "N")
-console.log('É necessário limpar a sala');
+if(pedido1 == 'S')
+pedido1 = 35;
 else
-console.log('Não é necessário limpar o banheiro'); 
+pedido1 = 0
 
-if(quarto == "N")
-console.log('É necessário limpar o quarto');
+if(pedido2 == 'S')
+pedido2 = 15; 
 else
-console.log('Não é necessário limpar o quarto');
+pedido2 = 0
+
+if(pedido3 == 'S')
+pedido3 = 15
+else
+pedido3 = 0
+
+var preçoFinal = (pedido1 + pedido2 + pedido3);
+ 
+if (preçoFinal == 65)
+preçoFinal= 60
+}
+while (preçoFinal <= 0)
+
+console.log('O valor da sua conta é ' + preçoFinal + ' reais');
